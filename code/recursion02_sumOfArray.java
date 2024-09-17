@@ -1,4 +1,4 @@
-public class resursion02_sumOfArray {
+public class recursion02_sumOfArray {
     public static void main(String[] args) {
         int []arr={1,2,3,4,5,7};
         int sum=0;
