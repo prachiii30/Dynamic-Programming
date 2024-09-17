@@ -1,4 +1,4 @@
-public class _03climbing {
+public class _03 {
     public int climbStairs(int n) {
         int i=1,c=0;
       int ans=cc(n,i);
@@ -15,6 +15,6 @@ public class _03climbing {
         return cc(n-1,i+1) + cc(n-2,i+2);
 
     }
-} {
+} 
     
-}
+
