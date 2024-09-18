@@ -1,4 +1,4 @@
-public class resursion04_1ToN {
+public class recursion04_1ToN {
     public static void main(String[] args) {
         help(7);
     }

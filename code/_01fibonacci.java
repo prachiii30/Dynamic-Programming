@@ -1,23 +1,17 @@
-import java.util.Arrays;
+/**
+ * _01fibonacci
+ */
+public class _01fibonacci {
 
-public class _01fibonacci{
     public static void main(String[] args) {
         int n=6;
-        int [] dp=new int [n+1];
-        Arrays.fill(dp,-1);
-
-        System.out.println(fun(n,dp));
+        System.out.println(fibo(n));
     }
-    public static int fun(int n, int []dp){
-        if(n<2){
-            return n;
-        }
-        
-          if(dp[n]!=-1)
-          return dp[n];
-        
-       return  dp[n]=fun(n-1,dp)+fun(n-2,dp);
-
-    
+    public static int fibo(int n){
+        if(n<2)
+        return n;
+        else
+        return fibo(n-2)+fibo(n-1);
+    }
 }
-}
+//0 1 1 2 3 5 8
